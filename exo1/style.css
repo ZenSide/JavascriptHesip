@@ -1,0 +1,9 @@
+body {
+    background-color: cyan;
+}
+
+body.dark {
+    background-color: darkblue;
+
+    color: white;
+}
