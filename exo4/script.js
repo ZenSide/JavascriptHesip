@@ -12,11 +12,7 @@ function addTask(nom) {
         title: nom,
         isCompleted: false
     }
-
     tasks.push(newTask);
-
-    inputElt.value = "";
-
     displayTaskList();
 }
 
@@ -52,6 +48,8 @@ form.addEventListener("submit", (event)=>{
 
     const inputTitle = inputElt.value;
     if (inputTitle.length==0) return;
+
+    inputElt.value = "";
 
     addTask(inputTitle);
 })
