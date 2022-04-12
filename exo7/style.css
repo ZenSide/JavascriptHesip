@@ -1,0 +1,80 @@
+table {
+    width: 300px !important;
+}
+table tr td {
+    height: 100px;
+    background-size: cover;
+}
+
+td.x {
+    background-image: url("xo.png");
+    background-position: right center;
+}
+
+td.o {
+    background-image: url("xo.png");
+    background-position: left center;
+}
+
+.game {
+    position: relative;
+}
+.game:not(.ended) .victory {
+    display: none;
+}
+.game:not(.ended) .winner {
+    visibility: hidden;
+}
+.game .winner {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.game.winner-x o {
+    display: none;
+}
+.game.winner-o x {
+    display: none;
+}
+.game .victory {
+    position: absolute;
+    width: 300px;
+    height: 4px;
+    background-color: red;
+    transform-origin: top left;
+    transform-origin: top left;
+}
+.game.victory-012 .victory {
+    top: 50px;
+}
+.game.victory-345 .victory {
+    top: 150px;
+}
+.game.victory-678 .victory {
+    top: 250px;
+}
+.game.victory-036 .victory {
+    top: 0px;
+    left: 50px;
+    transform: rotate(90deg);
+}
+.game.victory-147 .victory {
+    top: 0px;
+    left: 150px;
+    transform: rotate(90deg);
+}
+.game.victory-258 .victory {
+    top: 0px;
+    left: 250px;
+    transform: rotate(90deg);
+}
+.game.victory-048 .victory {
+    top: 0px;
+    transform: rotate(45deg);
+    width: 425px;
+}
+.game.victory-246 .victory {
+    top: 0px;
+    left: 300px;
+    transform: rotate(135deg);
+    width: 425px;
+}

@@ -16,10 +16,16 @@
   "devDependencies": {
     "@babel/cli": "^7.17.6",
     "@babel/core": "^7.17.9",
-    "@babel/preset-env": "^7.16.11"
+    "@babel/preset-env": "^7.16.11",
+    "typescript": "^4.6.3"
   },
   "dependencies": {
+    "@ionic/angular": "^6.0.16",
     "animate.css": "^4.1.1",
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.1.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "firebase": "^9.6.10",
+    "prompt": "^1.3.0"
   }
 }

@@ -27,6 +27,8 @@ async function searchActivity(filter) {
     if (filter==null) filter = "";
 
     const response = await fetch("http://www.boredapi.com/api/activity"+filter);
+    // utiliation du serveur de test express (test-node/app.js)
+    // const response = await fetch("http://localhost:3000/activity");
     const activity = await response.json();
     displayActivity(activity);
 }
