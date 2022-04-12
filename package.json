@@ -1,0 +1,24 @@
+{
+  "name": "javascript1",
+  "version": "1.0.0",
+  "description": "",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZenSide/JavascriptHesip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/ZenSide/JavascriptHesip#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
