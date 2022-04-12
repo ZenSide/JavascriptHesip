@@ -35,7 +35,7 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item"><span id="activity-participants"></span> participants</li>
                     <li class="list-group-item">Prix
-                        <div class="price-scale" id="activity-price">
+                        <div class="price-scale d-inline-block" id="activity-price">
                             <i class="bi bi-currency-euro"></i>
                             <i class="bi bi-currency-euro"></i>
                             <i class="bi bi-currency-euro"></i>
@@ -64,9 +64,12 @@
                 </div>
 
                 <select id="type-filter" class="form-control mb-2">
-                    <option></option>
+                    <option value="education">Education</option>
+                    <option value="recreational">Loisirs</option>
+                    <option value="social">Social</option>
+                    <option value="diy">Fais le toi même</option>
+                    <option value="charity">Bienfaisance</option>
                 </select>
-
                 <select id="participant-filter" class="form-control mb-2">
                     <option>1</option>
                     <option>2</option>

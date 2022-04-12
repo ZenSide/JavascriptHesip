@@ -1,0 +1,11 @@
+.price-scale {
+    width: 100px;
+    overflow: hidden;
+    background-color: purple;
+    color: white;
+    height: 25px;
+}
+
+#type-filter, #participant-filter {
+    display: none;
+}
